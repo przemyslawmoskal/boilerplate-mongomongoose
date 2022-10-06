@@ -13,7 +13,7 @@ let personSchema = new mongoose.Schema({
     required: true,
     unique: true
   },
-  age: number,
+  age: Number,
   favoriteFoods: [String]
 });
 
